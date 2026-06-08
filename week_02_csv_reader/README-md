@@ -1,0 +1,45 @@
+# Week 02 - CSV Reader
+
+This project focuses on reading market-style CSV data manually using Python's built-in `csv` module.
+
+The goal is to understand how raw financial data is loaded, parsed, and converted before using higher-level tools like Pandas.
+
+## Features
+
+* Read CSV files using Python's built-in `csv` module
+* Use `csv.DictReader` to access columns by name
+* Extract Close prices from CSV data
+* Convert string values into float values
+* Prepare price data for return and moving average calculations
+
+## Purpose
+
+Financial data usually comes in structured formats such as CSV files.
+Before using Pandas, I wanted to understand how Python reads raw CSV files and how numerical columns are manually extracted and converted.
+
+This project helps explain why tools like Pandas become useful when data grows larger and more complex.
+
+## Concepts Practiced
+
+* File handling
+* `with open(...)`
+* CSV reading
+* `csv.reader`
+* `csv.DictReader`
+* String to float conversion
+* Lists
+* Tuples
+* Returning data from functions
+
+## Files
+
+* `csv_okuyucu.py`: Functions for reading CSV files and extracting price data
+* `main.py`: Main script that uses the CSV reader functions
+* `veri.csv`: Sample CSV data used for practice
+
+## Next Steps
+
+* Connect CSV data with the stock analyzer
+* Use real Yahoo Finance data
+* Compare manual CSV reading with Pandas
+* Build Pandas-based data analysis scripts
