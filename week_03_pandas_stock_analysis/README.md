@@ -32,18 +32,6 @@ This project is not a full backtesting engine yet. It is a stock analysis and si
 
 ---
 
-## Project Structure
-
-```text
-week_03_pandas_stock_analysis/
-    pandas_analyzer.py
-    README.md
-    NOTES.md
-    aapl.csv
-```
-
----
-
 ## How It Works
 
 The project follows a simple analysis pipeline:
@@ -175,17 +163,3 @@ In this project, I practiced:
 * Visualizing financial data with Matplotlib
 * Structuring Python code with reusable functions
 * Separating data processing, signal generation, and plotting logic
-
----
-
-## Next Steps
-
-Possible improvements for the next version:
-
-* Add `yfinance` support for automatic data downloading
-* Add cumulative return calculation
-* Add basic backtesting logic
-* Add transaction costs
-* Add performance metrics such as Sharpe ratio and maximum drawdown
-* Compare multiple tickers
-* Export analysis results to a CSV file
