@@ -27,13 +27,27 @@ Object-oriented version of the stock analyzer:
 - Signal generation method
 - Reusable structure for multiple stocks
 
-## Upcoming
+ ### Week 03 — Pandas Stock Analysis
 
-- NumPy-based calculations
-- Pandas-based market data analysis
-- Vectorized backtesting
-- Strategy performance metrics
-- Transaction cost modeling
+A Pandas-based stock analysis project using historical stock price data from a CSV file.
+
+The project calculates daily returns, moving averages, and basic BUY / SELL / WAIT signals using moving average crossover logic. It also visualizes Close price, moving averages, and signal markers with Matplotlib.
+
+Key concepts practiced:
+
+Pandas DataFrames
+Reading CSV data with Pandas
+Financial time series analysis
+Daily return calculation
+Rolling moving averages
+Moving average crossover signals
+Matplotlib visualization
+Function-based project structure
+
+### Week 04 — Simple Backtesting Project
+
+A simple moving average crossover backtesting project using Python and Pandas.  
+It includes signal generation, position tracking, shifted position logic, transaction costs, cumulative returns, and basic performance metrics.
 
 ## About
 
